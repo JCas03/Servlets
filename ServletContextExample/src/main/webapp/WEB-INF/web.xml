@@ -1,0 +1,13 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>DemoServlet</servlet-name>
+        <servlet-class>DemoServlet</servlet-class>
+    </servlet>
+    <context-param>
+        <param-name>driver</param-name>
+        <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
+    </context-param>
+
+
+</web-app>
